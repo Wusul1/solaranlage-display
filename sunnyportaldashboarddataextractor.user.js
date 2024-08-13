@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        sunnyportal.com Dashboard Data Extractor
 // @namespace   Violentmonkey Scripts
-// @match       https://www.sunnyportal.com/FixedPages/Dashboard.aspx*
+// @match       https://www.sunnyportal.com/*ixed*ages/*ashboard.aspx*
 // @grant       none
 // @run-at      document-end
 // @version     1.0
