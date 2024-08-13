@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        sunnyportal.com Dashboard Redirect
 // @namespace   Violentmonkey Scripts
-// @match       https://www.sunnyportal.com/FixedPages/HoManLive.aspx*
+// @match       https://www.sunnyportal.com/*ixed*ages/*o*an*ive.aspx*
 // @grant       none
 // @run-at      document-start
 // @version     1.0
