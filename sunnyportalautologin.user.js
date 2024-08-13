@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        sunnyportal.com Auto Login
 // @namespace   Violentmonkey Scripts
-// @match       https://www.sunnyportal.com/Templates/Start.aspx*
-// @match       https://www.sunnyportal.com/Templates/Login.aspx*
+// @match       https://www.sunnyportal.com/*emplates/*tart.aspx*
+// @match       https://www.sunnyportal.com/*emplates/*ogin.aspx*
 // @grant       none
 // @run-at      document-end
 // @version     1.0
@@ -20,6 +20,7 @@
       rememberLoginCheckbox = document.getElementById("ctl00_ContentPlaceHolder1_LoginControl1_MemorizePassword"); //other login page has one more uppercase letter within checkbox id
   }
   var loginButton = document.getElementById("ctl00_ContentPlaceHolder1_Logincontrol1_LoginBtn");
+
   if(!loginButton){
     loginButton = document.getElementById("ctl00_ContentPlaceHolder1_LoginControl1_LoginBtn"); //same thing here
   }
