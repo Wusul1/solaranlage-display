@@ -8,6 +8,7 @@ datastring = "0;0;0;0"
 def senddata():
     global datastring
     datastring = request.data.decode("utf-8")
+    print("Received "+datastring)
     return "ok"
 
 @app.route("/getdata")
